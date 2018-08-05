@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>idenze</title>
+  <title>Follor Ethereum</title>
   
   
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
@@ -36,7 +36,7 @@
 </head>
 
 <body>
-<center><h2>Idenze Index</h2> <a href=add.php> Submit Movie Torrent</a></center>
+<center><h2>Follor Index</h2> <a href=add.php> Submit Movie Torrent</a></center>
 
 
 
