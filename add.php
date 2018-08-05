@@ -30,7 +30,7 @@
 <?php else: ?>
 
     <form action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?> method="post">
-        IMDB: <input type="text" name="imdb"><br>
+        IMDB: <input type="text" name="imdb" maxlength="9"><br>
        Quality :  <select name="q">
   <option value="Low">Low</option>
   <option value="720">720</option>
