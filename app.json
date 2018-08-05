@@ -1,0 +1,7 @@
+{
+  "name": "Follor Ethereum",
+  "description": "Ethereum Based Torrenting",
+  "repository": "https://github.com/projectfollor/follor-ethereum",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["Follor", "ethereum", "torrent"]
+}
