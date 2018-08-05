@@ -20,7 +20,7 @@
     $a = htmlspecialchars($_POST["imdb"]) . ":". htmlspecialchars($_POST["q"]) .":". htmlspecialchars($_POST["lang"]) .":". htmlspecialchars($_POST["hash"])  ; 
    echo strToHex($a);
    echo "<br>";
-   echo "Send As Input Data To : 0x566F0F622ddA9d97536F7f6e3D528eE701FBdeF4"
+   echo "Send As Input Data To : 0x566F0F622ddA9d97536F7f6e3D528eE701FBdeF4";
        echo "<br>";
  echo "Use GAS 31000";
    ?>
