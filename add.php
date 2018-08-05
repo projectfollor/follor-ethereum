@@ -119,7 +119,7 @@
 
 
         <br>
-        Hash : <input type="text" name="hash"><br>
+       Torrent Magnet Hash : <input type="text" name="hash" maxlength="40"><br>
         <input type="submit">
     </form>
 <?php endif; ?>
