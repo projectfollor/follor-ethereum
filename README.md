@@ -14,4 +14,10 @@ Deploy To Heroku For Free:-
 
 
 
+Build Directly On API 
+
+https://idenze.herokuapp.com/api.php
+
+
+
 property of follor.com
