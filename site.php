@@ -1,5 +1,5 @@
 <?php
-echo "<br>"
+echo "<br>";
 if ($handle = opendir('.')) {
 
     while (false !== ($entry = readdir($handle))) {
