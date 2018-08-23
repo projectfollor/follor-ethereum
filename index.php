@@ -113,11 +113,12 @@ if( rand(1, 1000)> 950){
 
 $stringData = "
 
-<meta name="description" content="watch $json[title] online, stream $json[title] online in full HD, watch $json[title] online for free" />
-<meta name="keywords" content="download $json[title], $json[title], watch $json[title], watch $json[title] online, stream $json[title] online in full HD, watch $json[title] online for free" />
-<meta name="author" content="metatags generator">
-<meta name="robots" content="index, follow">
-<meta name="revisit-after" content="6 days">
+
+<meta name=description content=watch $json[title] online, stream $json[title] online in full HD, watch $json[title] online for free />
+<meta name=keywords content=download $json[title], $json[title], watch $json[title], watch $json[title] online, stream $json[title] online in full HD, watch $json[title] online for free />
+<meta name=author content=metatags generator>
+<meta name=robots content=index, follow>
+<meta name=revisit-after content=6 days>
 <title>Download $json[title]</title>
 
 
@@ -141,6 +142,9 @@ $stringData = "
 <br><br>
 
 <center> Donate Ethereum To Seeder :  $seeder </center>
+
+
+
 
 
 ";   
