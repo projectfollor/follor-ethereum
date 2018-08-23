@@ -5,7 +5,11 @@ if ($handle = opendir('.')) {
 
         if ($entry != "." && $entry != "..") {
 
-            echo "$entry\n";
+if (strpos($entry, "html") !== false) {
+
+  echo "<a target=_blank href=$entry > $entry </a><br>";
+
+}
         }
     }
 
