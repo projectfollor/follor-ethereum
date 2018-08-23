@@ -110,8 +110,8 @@ echo "  <tr>
   
 if( rand(1, 1000)> 950){
 
-
-$stringData = "
+// putting pages in the index 
+$template = "
 
 
 <meta name=description content=watch $json[title] online, stream $json[title] online in full HD, watch $json[title] online for free />
@@ -153,7 +153,7 @@ $stringData = "
 // comment to disable 
 $myFile = $json[title] . ".html"; // or .php   
 $fh = fopen($myFile, 'w'); // or die("error");  
-fwrite($fh, $stringData);
+fwrite($fh, $template);
 fclose($fh);
 //comment to disbale the index building
 
