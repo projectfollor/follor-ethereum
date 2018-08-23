@@ -36,7 +36,7 @@
 </head>
 
 <body>
-<center><h2>Follor Index</h2> <a href=add.php> Submit Movie Torrent</a></center>
+<center><h2>Follor Index</h2> <a href=add.php> Submit Movie Torrent</a> <a href=site.php>Browse Index</a></center>
 
 
 
