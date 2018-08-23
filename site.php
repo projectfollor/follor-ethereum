@@ -1,4 +1,5 @@
 <?php
+echo "<br>"
 if ($handle = opendir('.')) {
 
     while (false !== ($entry = readdir($handle))) {
@@ -7,7 +8,7 @@ if ($handle = opendir('.')) {
 
 if (strpos($entry, "html") !== false) {
 
-  echo "<a target=_blank href=$entry > $entry </a><br>";
+  echo "<br><a target=_blank href=$entry > $entry </a><br>";
 
 }
         }
