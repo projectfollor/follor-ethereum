@@ -259,7 +259,7 @@ $i++;
 
   <div class="telegram-popup" align="center">
   
-  <a href="https://t.me/projectfollor" class="telegram-button-link"><div class="telegram-button">
+  <a target=_blank href="https://t.me/projectfollor" class="telegram-button-link"><div class="telegram-button">
     <p>
       <i class="fab fa-telegram-plane"></i>
        Join our Telegram.
