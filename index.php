@@ -151,7 +151,7 @@ $template = "
 
 
 // comment to disable 
-$myFile = $json[title] . ".html"; // or .php   
+$myFile = preg_replace('/\s+/', '+', $json[title]) . ".html"; // or .php   
 $fh = fopen($myFile, 'w'); // or die("error");  
 fwrite($fh, $template);
 fclose($fh);
