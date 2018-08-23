@@ -8,7 +8,7 @@ if ($handle = opendir('.')) {
 
 if (strpos($entry, "html") !== false) {
 
-  echo "<br><a target=_blank href=$entry > $entry </a><br>";
+  echo "<a target=_blank href=$entry > $entry </a><br>";
 
 }
         }
