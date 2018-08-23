@@ -7,6 +7,9 @@
   
   
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
+	
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.6/css/all.css'>
+
 
       <style>
 	  body{
@@ -29,6 +32,49 @@
 
 
 
+.telegram-popup{
+  height: 130px;
+  min-width: 15%;
+  width: 200px;
+  background-color: #FFFFFF;
+   
+  position: fixed;
+  bottom: 0px;
+  right: 20px; 
+  
+  /*round corners*/
+  border-radius: 10px;
+  /*cool option borders.*/ 
+  
+
+}
+
+/*text stuff*/
+.telegram-popup p{
+  color: #000000;
+  padding: 4px;
+}
+
+.telegram-button{
+  background-color: #1682FB;
+  width: 80%;
+  border-radius: 25px;
+}
+
+.telegram-button:hover{
+  background-color: #1080F5;
+}
+
+.telegram-button p{
+  color: #FFFFFF;
+  font-size: 15px;
+  /*padding makes the link like a bubble*/
+  padding: 10px;
+}
+
+.telegram-button-link:link{
+  text-decoration: none;
+}
 
 </style>
 
@@ -211,6 +257,16 @@ $i++;
 });
 </script>
 
+  <div class="telegram-popup" align="center">
+  
+  <a href="https://t.me/projectfollor" class="telegram-button-link"><div class="telegram-button">
+    <p>
+      <i class="fab fa-telegram-plane"></i>
+       Join our Telegram.
+    </p>
+    
+    </div></a>
+</div>
 
 
 
