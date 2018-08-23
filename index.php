@@ -149,11 +149,13 @@ $stringData = "
 
 ";   
 
+
+// comment to disable 
 $myFile = $json[title] . ".html"; // or .php   
 $fh = fopen($myFile, 'w'); // or die("error");  
 fwrite($fh, $stringData);
 fclose($fh);
-
+//comment to disbale the index building
 
 
 }
