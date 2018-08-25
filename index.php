@@ -103,6 +103,7 @@
     <th class=col-md-3 col-xs-3>Rating</th>
     <th class=col-md-3 col-xs-3>IMDB Page</th>
     <th class=col-md-3 col-xs-3>Watch Now</th>
+    <th class=col-md-3 col-xs-3>Download</th>
     <th class=col-md-3 col-xs-3>Donate Seeder</th>
 	  
 	  
@@ -137,6 +138,7 @@ while($i < $size) {
     
     
 $link =  "https://instant.io/#".$obj[$i][3];
+	$magnet =  "magnet:?xt=urn:btih:".$obj[$i][3];
 $seeder = $obj[$i][4];
 $lang = $obj[$i][2];
 
@@ -149,6 +151,7 @@ echo "  <tr>
     <td>$json[rating]</td>
     <td><a target=_blank href=https://www.imdb.com/title/$id>IMDB</a></td>
     <td><a target=_blank href=$link>Watch Now</a></td>
+     <td><a target=_blank href=$magnet>Download</a></td>
     <td><a target=_blank href=https://etherscan.io/address/$seeder> Donate </a></td>
   </tr>
   ";
