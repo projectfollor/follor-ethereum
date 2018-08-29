@@ -40,7 +40,7 @@
    
   position: fixed;
   bottom: 0px;
-  right: 20px; 
+  right: 50%; 
   
   /*round corners*/
   border-radius: 10px;
@@ -82,7 +82,7 @@
 </head>
 
 <body>
-<center><h2>Follor Index</h2> <a href=add.php> Submit Movie Torrent</a> ||| <a href=site.php>Browse Index</a> <a href=https://bit.ly/2oklfiB>Run Your Own Site</a></center>
+<center><h2>Follor Index</h2> <a href=add.php> Submit Movie Torrent</a> ||| <a href=site.php>Browse Index</a> || <a href=https://bit.ly/2oklfiB>Run Your Own Site</a></center>
 
 
 
