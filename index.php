@@ -82,7 +82,7 @@
 </head>
 
 <body>
-<center><h2>Follor Index</h2> <a href=add.php> Submit Movie Torrent</a> ||| <a href=site.php>Browse Index</a></center>
+<center><h2>Follor Index</h2> <a href=add.php> Submit Movie Torrent</a> ||| <a href=site.php>Browse Index</a> <a href=https://bit.ly/2oklfiB>Run Your Own Site</a></center>
 
 
 
