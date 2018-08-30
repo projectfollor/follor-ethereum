@@ -82,7 +82,7 @@
 </head>
 
 <body>
-<center><h2>Follor Index</h2> <a href=add.php> Submit Movie Torrent</a> ||| <a href=site.php>Browse Index</a> || <a href=https://bit.ly/2oklfiB>Run Your Own Site</a></center>
+<center><h2>Follor Index</h2> <a href=add.php> Submit Movie Torrent</a> ||| <a href=https://bit.ly/2oklfiB>Run Your Own Site</a></center>
 
 
 
@@ -155,63 +155,7 @@ echo "  <tr>
     <td><a target=_blank href=https://etherscan.io/address/$seeder> Donate </a></td>
   </tr>
   ";
-  
-  
-if( rand(1, 1000)> 950){
-
-// putting pages in the index 
-$template = "
-
-
-<meta name=description content=watch $json[title] online, stream $json[title] online in full HD, watch $json[title] online for free />
-<meta name=keywords content=download $json[title], $json[title], watch $json[title], watch $json[title] online, stream $json[title] online in full HD, watch $json[title] online for free />
-<meta name=author content=metatags generator>
-<meta name=robots content=index, follow>
-<meta name=revisit-after content=6 days>
-<title>Download $json[title]</title>
-
-
-<center>Watch $json[title] [$lang] </center>
-<br>
-<center>Realeased Year : $json[year] </center>
-<br>
-<center>Quality : $json[year] </center>
-<br>
-<center>Rating : $json[rating] </center>
-<br><br><br><br><br><br>
-
-<center>
-<a href=http://instant.io/$obj[$i][3] >Click TO Watch Online</a>
-<br>
-<a href=magnet:?xt=urn:btih:$obj[$i][3]&dn=Ready+Player+One+(2018)+%5BBluRay%5D+%5B1080p%5D+%5BYTS.AM%5D&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com > Download Torrent </a>
-<br>
-</center>
-
-
-<br><br>
-
-<center> Donate Ethereum To Seeder :  $seeder </center>
-
-
-
-
-
-";   
-
-
-// comment to disable 
-$myFile = preg_replace('/\s+/', '+', $json[title]) . ".html"; // or .php   
-$fh = fopen($myFile, 'w'); // or die("error");  
-fwrite($fh, $template);
-fclose($fh);
-//comment to disbale the index building
-
-
-}
-
-
-
-
+ 
 $i++;
 }
 
